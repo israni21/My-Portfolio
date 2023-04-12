@@ -93,6 +93,7 @@
 .footer .footer-container .left p1{
     font-size: 1.1rem;
     padding: 1.6rem 0 2rem;
+    margin-right: 2rem;
     font-family: 'Outfit';
     color: #fff;
     letter-spacing: 1px;
@@ -101,7 +102,7 @@
 .footer .footer-container .left p2{
     font-size: 1.2rem;
     font-style: italic;
-    padding: 1rem 0 1rem;
+    margin: 1rem 2rem 1rem 0;
     font-family: 'Outfit';
     color: #d9d9d9;
 }
@@ -124,7 +125,7 @@
 .footer .footer-container .left p4{
     font-size: 1.2rem;
     font-style: italic;
-    padding: 1rem 0 1rem 0;
+    margin: 1rem 2rem 1rem 0;
     font-family: 'Outfit';
     color: #d9d9d9;
 }
@@ -198,6 +199,7 @@
     position: relative;
     padding-left: 15px;
     padding: 0 1rem;
+    margin-right: 2rem;
 }
 
 .footer .footer-container .left #arrow li a{
@@ -518,7 +520,6 @@
         padding: 35rem 5rem 0 0;
       }
 }
-
 
 .fade-in-image {
     animation: fadeIn 5s;
