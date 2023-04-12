@@ -1,0 +1,102 @@
+.footer2{
+    width: 100%;
+    height: 100%;
+    padding: 0 0 2rem;
+    background-color: #120032;
+}
+
+.footer-container2{
+    margin: 0 10% 5% 10%;
+}
+
+.footer2 .footer-container2 .projects h1{
+    font-size: 3rem;
+    padding: 6rem 0 0.5rem;
+    font-family: 'Outfit';
+    color: #08ffdc;
+    letter-spacing: 1px;
+}
+
+.footer2 .footer-container2 .projects h1::after{
+    content: "";
+    display: block;
+    width: 48px;
+    padding-top: 3px;
+    border-bottom: 4px solid #fff;
+}
+
+
+.footer2 .footer-container2 .projects p{
+    font-size: 1.8rem;
+    padding: 1.2rem 0 1.5rem;
+    font-family: 'Outfit';
+    font-weight: bold;
+    color: #08ffdc;
+    letter-spacing: 2px;
+}
+
+.footer2 .footer-container2 .projects p::before{
+    font-size: 1.8rem;
+    padding: 1.6rem 0 1.5rem;
+    font-family: 'Outfit';
+    font-weight: bold;
+    color: #08ffdc;
+    letter-spacing: 2px;
+    content: "<Codinf>";
+}
+
+.footer2 .footer-container2 .projects p1{
+    font-size: 1.2rem;
+    padding: 0 2rem 0 0;
+    font-family: 'Outfit';
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.footer2 .footer-container2 .projects p2{
+    font-size: 1.1rem;
+    padding: 0 0 0 0;
+    font-family: 'Outfit';
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.footer2 .footer-container2 .projects h2{
+    font-size: 1.8rem;
+    padding: 5rem 0 1.5rem;
+    font-family: 'Outfit';
+    font-weight: bold;
+    color: #08ffdc;
+    letter-spacing: 2px;
+}
+
+.footer2 .footer-container2 .projects h3{
+    font-size: 1.3rem;
+    padding: 2rem 3rem 1rem 0;
+    color: #08ffdc;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1400px){
+    .footer2 .footer-container2 .projects h1{
+        font-size: 2rem;
+    }
+
+    .footer2 .footer-container2 .projects p{
+        font-size: 1.2rem;
+    }
+
+    .footer2 .footer-container2 .projects p1{
+        font-size: 1.1rem;
+    }
+
+    .footer2 .footer-container2 .projects p2{
+        font-size: 1rem;
+    }
+
+    .footer2 .footer-container2 .projects h3{
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+}
+

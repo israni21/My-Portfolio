@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Outfit:wght@200;300;400;500;600;700;800;900&family=Play:wght@400;700&display=swap');
+
+.mask{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.into-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.mask::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+}
+
+.hero .content{
+    position: absolute;
+    transform: translate(100%, 50%);
+    top: 20%;
+    left: 30%;
+}
+
+.hero .content h1{
+    font-size: 4rem;
+    padding: 0.6rem 0 0 0;
+    font-family: 'Outfit';
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.hero .content p{
+    font-size: 3rem;
+    padding: 0.6rem 0 1.5rem 0;
+    font-family: 'Outfit';
+    color: #fff;
+}
+
+.hero .content p1{
+    font-size: 3rem;
+    padding: 0.6rem 0 0 0;
+    font-family: 'Outfit';
+    color: #08ffdc;
+    border-bottom: 4px solid #fff;
+}
+
+
+.hero .content #icon1{
+    background: whitesmoke;
+    border-radius: 30%;
+    padding: 0.5rem;
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+.hero .content #icon1:hover{
+    background: #08ffdc;
+}
+
+
+.hero .content #icon2{
+    background: whitesmoke;
+    border-radius: 30%;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+.hero .content #icon2:hover{
+    background: #08ffdc;
+}
+
+.hero .content #icon3{
+    background: whitesmoke;
+    border-radius: 30%;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+.hero .content #icon3:hover{
+    background: #08ffdc;
+}
+
+@media screen and (max-width: 1200px){
+    .into-img{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+    }
+    
+    .hero .content{
+        position: absolute;
+        justify-content: center;
+        transform: translate(-10%, 50%);
+        top: 30%;
+    }
+
+    .hero .content h1{
+        padding: 0.5rem 0 0 3rem;
+        font-size: 3rem;
+        letter-spacing: 3px;
+    }
+    
+    .hero .content p{
+        font-size: 2rem;
+        padding: 0.5rem 0 1.5rem 3rem;
+    }
+
+    .hero .content p1{
+        font-size: 2rem;
+        border-bottom: 3px solid #fff;
+    }
+
+    .hero .content #icon1{
+        width: 2rem;
+        height: 2rem;
+        margin-left: 3rem;
+    }
+
+    .hero .content #icon2{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .hero .content #icon3{
+        width: 2rem;
+        height: 2rem;
+    }
+}
