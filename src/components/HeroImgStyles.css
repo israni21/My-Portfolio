@@ -161,20 +161,4 @@
     .hero .content p1{
         font-size: 1rem;
     }
-
-    .hero .content #icon1{
-        width: 1rem;
-        height: 1rem;
-        margin-left: 2rem;
-    }
-
-    .hero .content #icon2{
-        width: 1rem;
-        height: 1rem;
-    }
-
-    .hero .content #icon3{
-        width: 1rem;
-        height: 1rem;
-    }
 }
