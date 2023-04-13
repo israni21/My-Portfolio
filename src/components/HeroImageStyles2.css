@@ -174,15 +174,15 @@
 }
 
 
-.footer .footer-container .about-img{
+.footer .footer-container .about-img img{
     margin: 5rem 15rem 0 12rem;
-    padding: 4px 4px 0 4px;
+    padding: 4px 4px 4px 4px;
     max-width: 100%;
     max-height: 100%;
     border: 12px solid #08ffdc;
 }
 
-.footer .footer-container .animate-img{
+.footer .footer-container .animate-img img{
     margin: 5rem 15rem 0 12rem;
     max-width: 100%;
     max-height: 100%;
@@ -198,7 +198,7 @@
     list-style-type: none;
     position: relative;
     padding-left: 10px;
-    margin-right: 2rem;
+    margin-right: 3rem;
 }
 
 .footer .footer-container .left #arrow li a{
@@ -356,22 +356,19 @@
         top: 2px;
     }
 
-    .footer .footer-container .about-img{
+    .footer .footer-container .about-img img{
         margin: 3rem 3rem 0 0rem;
-        max-width: 100%;
-        max-height: 100%;
-        border: 5px solid #08ffdc;
-        object-fit: cover;
-        background-size: cover;
+        max-width: 80%;
+        max-height: 80%;
+        border: 8px solid #08ffdc;
     }
 
-    .footer .footer-container .animate-img{
+    .footer .footer-container .animate-img img{
         margin: 3rem 3rem 0 0rem;
-        max-width: 100%;
-        max-height: 100%;
-        border: 5px solid #08ffdc;
-        object-fit: cover;
-        background-size: cover;
+        max-width: 80%;
+        max-height: 80%;
+        border: 8px solid #08ffdc;
+        
     }    
 
     .footer .footer-container .h-divider {
@@ -493,19 +490,19 @@
         top: 2px;
     }
 
-    .footer .footer-container .about-img{
-        margin: 3rem 3rem 0 0rem;
-        max-width: 100%;
-        max-height: 100%;
+    .footer .footer-container .about-img img{
+        margin: 2rem 2rem 0 0;
+        max-width: 75%;
+        max-height: 75%;
         border: 5px solid #08ffdc;
         object-fit: cover;
         background-size: cover;
     }
 
-    .footer .footer-container .animate-img{
-        margin: 3rem 3rem 0 0rem;
-        max-width: 100%;
-        max-height: 100%;
+    .footer .footer-container .animate-img img{
+        margin: 2rem 2rem 0 0;
+        max-width: 75%;
+        max-height: 75%;
         border: 5px solid #08ffdc;
         object-fit: cover;
         background-size: cover;
