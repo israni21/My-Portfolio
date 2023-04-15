@@ -231,7 +231,26 @@
         font-size: 0.8rem;
     }
 
+    .footer4 .footer-container4 .contact .container4 .left .icons #social-icons1{
+        margin-top: 1rem;
+        padding: 0.5rem;
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    .footer4 .footer-container4 .contact .container4 .left .icons #social-icons2{
+        margin-top: 1.5rem;
+        padding: 0.5rem;
+        width: 2rem;
+        height: 2rem;
+    }
 
+    .footer4 .footer-container4 .contact .container4 .left .icons #social-icons3{
+        margin-top: 1.5rem;
+        padding: 0.5rem;
+        width: 2rem;
+        height: 2rem;
+    }
 
     .footer4 .footer-container4 .contact .container4{
         grid-template-columns: 0fr;
