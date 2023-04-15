@@ -134,6 +134,7 @@
     .hero .content #icon1{
         width: 2rem;
         height: 2rem;
+        margin-left: 3rem;
     }
 
     .hero .content #icon2{
@@ -161,19 +162,19 @@
         font-size: 1rem;
         border-bottom: 3px solid #fff;
     }
-    
+
     .hero .content #icon1{
-        width: 2rem;
-        height: 2rem;
+        width: 1.5rem;
+        height: 1.5rem;
     }
 
     .hero .content #icon2{
-        width: 2rem;
+        width: 1.5rem;
         height: 2rem;
     }
 
     .hero .content #icon3{
-        width: 2rem;
-        height: 2rem;
+        width: 1.5rem;
+        height: 1.5rem;
     }
 }
