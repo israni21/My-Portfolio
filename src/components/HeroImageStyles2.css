@@ -43,7 +43,9 @@
     font-family: 'Outfit';
     color: #08ffdc;
     letter-spacing: 1px;
+}
 
+.footer .footer-container .text1 h1{
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
     -moz-animation: fadeIn 5s;
@@ -98,7 +100,9 @@
     font-family: 'Outfit';
     color: #fff;
     letter-spacing: 1px;
+}
 
+.footer .footer-container .text1 p{
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
     -moz-animation: fadeIn 5s;
