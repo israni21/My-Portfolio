@@ -54,7 +54,6 @@
 
 .footer4 .footer-container4 .contact .container4 .right #message{
     width: 250px;
-    height: 30px;
 }
 
 .footer4 .footer-container4 .contact h1{
@@ -275,17 +274,17 @@
     }
 
     .footer4 .footer-container4 .contact .container4 .right #name{
-        width: 130px;
+        width: 100px;
         height: 20px;
     }
     
     .footer4 .footer-container4 .contact .container4 .right #email{
-        width: 130px;
+        width: 100px;
         height: 20px;
     }
     
     .footer4 .footer-container4 .contact .container4 .right #message{
-        width: 130px;
+        width: 100px;
     }
  
     .footer4 .footer-container4 .contact .container4 .right button{
