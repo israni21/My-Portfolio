@@ -59,6 +59,39 @@ const HeroImage2 = () => {
 
               <h1>Skills</h1>
 
+              <div className = 'skill-main'>
+                <h2>Programming Languages</h2>
+                <div id = "arrow">
+                    <ul>
+                      <p1><li><span>Java</span></li></p1>
+                      <p1><li><span>C++</span></li></p1>
+                      <p1><li><span>Android</span></li></p1>
+                      <p1><li><span>HTML</span></li></p1>
+                      <p1><li><span>CSS</span></li></p1>
+                      <p1><li><span>JavaScript</span></li></p1>
+                      <p1><li><span>ReactJs</span></li></p1>
+                      <p1><li><span>Python</span></li></p1>
+                    </ul>
+                </div>
+                <h2>Database & Design Tools</h2>
+                <div id = "arrow">
+                    <ul>
+                        <p1><li><span>SQL</span></li></p1>
+                        <p1><li><span>Figma</span></li></p1>
+                        <p1><li><span>Canva</span></li></p1>
+                    </ul>
+                </div>
+                <h2>Other Skills</h2>
+                <div id = "arrow">
+                    <ul>
+                      <p1><li><span>OOPS</span></li></p1>
+                      <p1><li><span>DSA</span></li></p1>
+                      <p1><li><span>Linux</span></li></p1>
+                      <p1><li><span>Git</span></li></p1>
+                      <p1><li><span>CI/CD</span></li></p1>
+                  </ul>
+                </div>
+              </div>
               <div className = 'skill-grid-outer'>
                 <h2>Programming Languages</h2>
                 <h2>Database & Design Tools</h2>
@@ -76,7 +109,7 @@ const HeroImage2 = () => {
                       <p1><li><span>JavaScript</span></li></p1>
                       <p1><li><span>ReactJs</span></li></p1>
                       <p1><li><span>Python</span></li></p1>
-                  </ul>
+                    </ul>
                 </div>
                 <div id = "arrow">
                     <ul>
