@@ -59,17 +59,17 @@ const HeroImage4 = () => {
                     <form onSubmit={handleSubmit}>
                       <div>
                         <h2><label htmlFor = "name">Name:</label></h2>
-                        <input type = "text" id = "name" style={{width : "250px", height: "30px"}} required />
+                        <input type = "text" id = "name" required />
                         <p></p>
                       </div>
                       <div>
                         <h2><label htmlFor = "email">Email:</label></h2>
-                        <input type = "email" id = "email" style={{width : "250px", height: "30px"}} required />
+                        <input type = "email" id = "email" required />
                         <p></p>
                       </div>
                       <div>
                         <h2><label htmlFor = "message">Message:</label></h2>
-                        <textarea id ="message" style={{width : "250px"}} required />
+                        <textarea id ="message" required />
                       </div>
                       <button type = "submit">{status}</button>
                       </form>
