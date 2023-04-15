@@ -220,25 +220,26 @@
     }
     
     .footer4 .footer-container4 .contact .container4 .left .text #location::after{
-        content: "\a  Gorakhpur, India";
+        content: "\a Gorakhpur, India";
         white-space: pre;
         font-size: 0.8rem;
     }
 
     .footer4 .footer-container4 .contact .container4 .left .text #email::after{
-        content: "\a  israni.riya21@gmail.com";
+        content: "\a israni.riya21@gmail.com";
         white-space: pre;
         font-size: 0.8rem;
     }
 
     .footer4 .footer-container4 .contact .container4 .left .text #call::after{
-        content: "\a  +91 8400787009";
+        content: "\a +91 8400787009";
         white-space: pre;
         font-size: 0.8rem;
     }
 
     .footer4 .footer-container4 .contact .container4 .left .icons #social-icons1{
         margin-top: 3.8rem;
+        left: 1rem;
         padding: 0.5rem;
         width: 2rem;
         height: 2rem;
@@ -246,6 +247,7 @@
     
     .footer4 .footer-container4 .contact .container4 .left .icons #social-icons2{
         margin-top: 4.5rem;
+        left: 1rem;
         padding: 0.5rem;
         width: 2rem;
         height: 2rem;
@@ -253,6 +255,7 @@
 
     .footer4 .footer-container4 .contact .container4 .left .icons #social-icons3{
         margin-top: 4.5rem;
+        left: 1rem;
         padding: 0.5rem;
         width: 2rem;
         height: 2rem;
@@ -277,17 +280,17 @@
     }
 
     .footer4 .footer-container4 .contact .container4 .right #name{
-        width: 100px;
+        width: 130px;
         height: 20px;
     }
     
     .footer4 .footer-container4 .contact .container4 .right #email{
-        width: 100px;
+        width: 130px;
         height: 20px;
     }
     
     .footer4 .footer-container4 .contact .container4 .right #message{
-        width: 100px;
+        width: 130px;
     }
  
     .footer4 .footer-container4 .contact .container4 .right button{
