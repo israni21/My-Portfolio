@@ -7,6 +7,11 @@
 
 .footer-container2{
     margin: 0 10% 5% 10%;
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
 }
 
 .footer2 .footer-container2 .projects h1{
