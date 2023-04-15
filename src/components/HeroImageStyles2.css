@@ -36,6 +36,14 @@
     padding: 0.5rem;
 }
 
+.left1{
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;
+    -o-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
+}
+
 
 .footer .footer-container .text h1{
     font-size: 3rem;
@@ -113,7 +121,6 @@
 .footer .footer-container .left p1{
     font-size: 1.1rem;
     padding: 1.6rem 0 2rem;
-    margin-right: 2rem;
     font-family: 'Outfit';
     color: #fff;
     letter-spacing: 1px;
