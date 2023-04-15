@@ -40,7 +40,7 @@ const HeroImage2 = () => {
           
         </div>
         
-        <div className = "left">
+        <div className = {animate ? "left left1" : "left"}>
               <p></p>
               <h1>Education</h1>
               <p5>, BSc. (Hons.) Computer Science</p5>
