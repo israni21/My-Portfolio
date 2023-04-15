@@ -20,7 +20,7 @@ const HeroImage2 = () => {
     <div className = "footer">
       <div className = "footer-container">
         
-        <div className = 'text'>
+        <div className = {animate ? "text" : "text text1"}>
         <h1>About</h1>
             <p>I'm Riya Israni, currently a student of SGGSCC, Delhi University 
               pursuing BSc. (H) CS. My interests lie in diverse amount of things, ranging 
