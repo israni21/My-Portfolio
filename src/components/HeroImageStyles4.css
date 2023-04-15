@@ -203,36 +203,36 @@
     .footer4 .footer-container4 .contact .container4 .left .text #location{
         font-size: 1.1rem;
         margin-top: 4.5rem;
-        margin-left: 0;
+        margin-left: 1rem;
     }
 
     .footer4 .footer-container4 .contact .container4 .left .text #email{
         font-size: 1.1rem;
         margin-top: 4.5rem;
-        margin-left: 0;
+        margin-left: 1rem;
     }
 
     .footer4 .footer-container4 .contact .container4 .left .text #call{
         font-size: 1.1rem;
         margin-top: 4.5rem;
         margin-left: 0.5rem;
-        margin-left: 0;
+        margin-left: 1rem;
     }
     
     .footer4 .footer-container4 .contact .container4 .left .text #location::after{
-        content: "\a Gorakhpur, India";
+        content: "\a   Gorakhpur, India";
         white-space: pre;
         font-size: 0.8rem;
     }
 
     .footer4 .footer-container4 .contact .container4 .left .text #email::after{
-        content: "\a israni.riya21@gmail.com";
+        content: "\a   israni.riya21@gmail.com";
         white-space: pre;
         font-size: 0.8rem;
     }
 
     .footer4 .footer-container4 .contact .container4 .left .text #call::after{
-        content: "\a +91 8400787009";
+        content: "\a   +91 8400787009";
         white-space: pre;
         font-size: 0.8rem;
     }
@@ -264,7 +264,7 @@
     .footer4 .footer-container4 .contact .container4{
         grid-template-columns: 0fr;
         grid-gap: 0px;
-        padding-right: 5rem;
+        padding-left: 1rem;
     }
 
     .footer4 .footer-container4 .contact .container4 .right h2{
