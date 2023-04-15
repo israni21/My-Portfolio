@@ -12,6 +12,10 @@
     grid-gap: 0px;
 }
 
+.footer .footer-container .left .skill-main{
+    display: none;
+}
+
 .footer .footer-container .left .skill-grid-outer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -93,7 +97,7 @@
 .footer .footer-container .left p1{
     font-size: 1.1rem;
     padding: 1.6rem 0 2rem;
-    margin-right: 2.5rem;
+    margin-right: 2rem;
     font-family: 'Outfit';
     color: #fff;
     letter-spacing: 1px;
@@ -393,12 +397,16 @@
         grid-template-columns: 1fr;
     }
 
+    .footer .footer-container .left .skill-main{
+        display: contents;
+    }
+
     .footer .footer-container .left .skill-grid-outer{
-        grid-gap: 20px;
+        display: none;
     }
     
     .footer .footer-container .left .skill-grid-inner{
-        grid-gap: 20px;
+        display: none;
     }
 
     .footer .footer-container .left h1{
