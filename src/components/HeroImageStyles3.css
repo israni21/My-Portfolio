@@ -3,6 +3,7 @@
     height: 100%;
     padding: 0 0 2rem;
     background-color: #120032;
+    overflow-x: hidden;
 }
 
 .footer-container2{
